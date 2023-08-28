@@ -1,0 +1,44 @@
+header {
+  color: gray;
+  font-family: "Quicksand", sans-serif;
+  border-bottom:solid rgb(0, 0, 0);
+  border-bottom-width: 1px;
+}
+h1 {
+	font-family: "Space Grotesk", sans-serif;
+	text-align: center;
+}
+h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  text-align: center;
+}
+p  {
+  padding: 0 200px;
+  display: flex;
+	text-align: justify;
+	font-family: "Montserrat",sans-serif;
+}  		
+a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+button {
+  background-color: #888a88;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.img {
+  display:flex;
+  justify-content: center;
+  width: 100%;
+}
+img {
+  height: 400px;
+  width: 600px;
+}

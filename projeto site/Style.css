@@ -1,0 +1,46 @@
+header {
+  color: gray;
+  font-family: "Quicksand", sans-serif;
+  border-bottom:solid rgb(0, 0, 0);
+  border-bottom-width: 1px;
+}
+h1 {
+  font-family: "Space Grotesk", sans-serif;
+  text-align: center;
+}
+h2 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+p  {
+  width: 600px;
+	font-family: "Montserrat",sans-serif;
+  border-bottom:solid rgb(0, 0, 0);
+  border-bottom-width: 1px;
+}  	
+.noticia {
+  height: 250px;
+  text-align: justify;
+  display:flex;
+  flex-wrap: wrap;
+  padding: 0 1%;
+
+}
+.noticia h2{
+  display: flex;
+  width: 750px;
+}
+.noticia img{
+  width: 200px;
+  height: 130px;
+  padding: 0 2%;
+}
+a:link  {
+  text-decoration:none;
+  color:rgb(0, 0, 0);
+}
+a:hover {
+  color:rgb(121, 121, 121);
+}
+a:visited{
+  color:gray;
+}
