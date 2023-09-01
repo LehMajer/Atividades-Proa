@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var sexo = prompt('Qual o seu sexo? 1: Feminino, 2: Masculino')
+        var altura = prompt('Qual sua altura? (Digite em centímetros)')
+
+        if (sexo == 1){
+            var peso = Math.trunc (52 + (0.67 *(altura - 152.4)))
+            document.write ("Seu peso ideal é: " + peso + "Kg")
+        } else if (sexo == 2){
+            var peso = Math.trunc (52 + (0.75 *(altura - 152.4)))
+            document.write ("Seu peso ideal é: " + peso + "Kg")
+        }
+    </script>
+</head>
+<body>
+    <!--Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1: feminino 2: masculino) de uma
+    pessoa, construa um programa que calcule e imprima seu peso ideal, utilizando as seguintes fórmulas:-->
+</body>
+</html>

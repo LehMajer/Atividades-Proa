@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var valor1 = parseInt(prompt("Informe o Primeiro valor"));
+        var conta = parseInt(prompt("1. Adição, 2. Subtração, 3. Divisão, 4. Multiplicação"));
+        var valor2 = parseInt(prompt ("Informe o Segundo valor"));
+
+        if (conta == 1){
+            var resultado = (valor1 + valor2);
+            document.write ("O resultado da Operação é: " + resultado);
+        } else if (conta == 2){
+            var resultado2 = (valor1 - valor2);
+            document.write ("O resultado da Operação é: " + resultado2);
+        } else if (conta == 3){
+            var resultado3 = (valor1 / valor2);
+            document.write ("O resultado da Operação é: " + resultado3);
+        } else if (conta == 4){
+            var resultado4 = (valor1 * valor2);
+            document.write ("O resultado da Operação é: " + resultado4);
+        }
+    </script>
+</head>
+<body>
+<!--Uma micro calculadora
+Escreva um programa para ler 2 valores inteiros informados pelo usuário e uma das seguintes 
+operações a serem executadas (codificada da seguinte forma: 1. Adição, 
+2. Subtração, 3. Divisão, 4. Multiplicação).
+O programa deve calcular e escrever o resultado dessa operação sobre os dois valores lidos. 
+
+Observação: Considere que só serão lidos os valores 1, 2, 3 ou 4 para as operações-->
+</body>
+</html>
