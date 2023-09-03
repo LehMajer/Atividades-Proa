@@ -1,0 +1,4 @@
+var cem = 100
+(cem =< 110)
+cem++
+document.write (cem)

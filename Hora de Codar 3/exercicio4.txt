@@ -1,0 +1,8 @@
+abrir o vscode
+criar um arquivo HTML
+abrir a tag <script>
+crie a var Soma com valor de 0
+agora i=15 e (i <=100) para poder fazer a contagem
+agora vai ocorrer soma + i
+faça a var resultado e o valor de (soma/85)
+agora use document.write e coloque a variavel Resultado para mostrar na tela

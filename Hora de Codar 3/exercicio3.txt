@@ -1,0 +1,9 @@
+abrir o vscode
+criar um arquivo HTML
+abrir a tag <script>
+escrever uma var com valor de 10
+escrever um while com sinal de Maior que 0 ( > 0)
+criar uma var que tenha texto, escrevendo a contagem
+escrever document.write para aparecer na tela
+por a primeira var = var - 1 para poder dimunir até chegar ao zero
+fechar a tag </script>

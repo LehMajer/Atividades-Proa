@@ -1,0 +1,6 @@
+crie 6 var com nome de n1, n2, n3....
+crie a var soma = (n1 + n2 +...)/6
+crie if (n1 <0) pedir uma nota valida
+crie else if (n1 > 10) pedir uma nota valida
+fazer if/else if para cada nota
+crie o document.write ('Esta é sua media: ' + soma)

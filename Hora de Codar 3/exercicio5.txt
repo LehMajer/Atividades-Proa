@@ -1,0 +1,11 @@
+crie o arquivo html
+abra a tag <script>
+crie a var n1
+crie a var n2
+Crie a var soma = 0 
+Crie a var divisor = 0
+Para n1 enquanto (n1<=n2), incrementar (n1).
+Soma recebe o valor de: soma + n1.
+incrementar divisor.
+Crie uma var media = soma/divisor.
+agora document.write (media)

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var s = 1;
+        var aa= 0;
+
+        do{
+            var n1 = parseInt(prompt('Digite a primeira nota:'));
+            var n2 = parseInt(prompt('Digite a segunda nota:'));
+            var resultado = (n1 + n2)/2;
+
+            if (resultado < 9.5){
+                alert('Você foi reprovado!');
+            } else {
+                alert('Você foi aprovado!');
+                aa++;
+            }
+            s = parseInt(prompt('Deseja calcular a média de outro aluno? 1-Sim 2-Não:'));
+        } while (s==1);
+
+        alert ('Total de alunos aprovados: ' + aa)
+
+            
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
